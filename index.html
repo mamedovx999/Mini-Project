@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./css/vegas.min.css">
+    <link rel="stylesheet" href="./css/fontello-embedded.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Estate - Real estate theme</title>
+</head>
+
+<body>
+<section class="header-main">
+    <nav id="nav-main" class="navbar navbar-expand-lg">
+        <div class="container-fluid container">
+            <a id="nav-logo" class="navbar-brand" href="#"><img
+                    src="./img/logo-header1.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="container-fluid text-center">
+                <div style="position:relative" id="upper-header" class="row ">
+                    <div id="contacts-header" class="col d-flex">
+                        <div class="address-nav">
+                            <i class="fa-solid fa-location-dot"></i> 121 King Street, NY, USA
+                        </div>
+                        <div class="email-nav">
+                            <a href="mailto:"><i class="fa-solid fa-envelope"></i> contact@yoursite.com</a>
+                        </div>
+                    </div>
+                    <div id="phone-header" class="col">
+                        CALL US: <a href="">800 123 45 67</a>
+                    </div>
+                </div>
+   
+                <div style="position: relative;" class="row">
+                    <div id="lower-header" class="col d-flex">
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle button dd" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                HOME
+                            </button>
+                            <ul class="dropdown-menu custom-dropdown">
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle button dd" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                FEATURES
+                            </button>
+                            <ul class="dropdown-menu custom-dropdown">
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle button dd" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                ABOUT US
+                            </button>
+                            <ul class="dropdown-menu custom-dropdown">
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle button dd" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                LISTING
+                            </button>
+                            <ul class="dropdown-menu custom-dropdown">
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle button dd" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                GALLERY
+                            </button>
+                            <ul class="dropdown-menu custom-dropdown">
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle button dd" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                BLOG
+                            </button>
+                            <ul class="dropdown-menu custom-dropdown">
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                                <li><a class="dropdown-item nav-dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn contacts-btn button dd" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                CONTACTS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<div id="vegas-container">
+
+    <div id="firstSlide" class="carousel-caption">
+        <div class="slider-card-upper d-flex justify-content-center align-items-center">
+            <p>HOUSE FOR SALE</p>
+        </div>
+        <div class="card-inner-header">
+            <p>87 Mishaum Point Rd</p>
+        </div>
+        <div class="card-inner-footer">
+            <p>Dartmouth, MA 02748</p>
+        </div>
+        <div class="slider-card-bottom d-flex justify-content-center align-items-center flex-column">
+            <div class="slider-card-bottom-frame"></div>
+            <div class="slider-card-bottom-price d-flex justify-content-center align-items-center">
+                <span>$</span>
+                1,249,000
+                <div class="triangle-bottomright position-absolute position-absolute"></div>
+            </div>
+        </div>
+    </div>
+  
+    <div id="secondSlide" class="carousel-caption">
+        <div class="slider-card-upper d-flex justify-content-center align-items-center">
+            <p>TOWNHOUSE FOR SALE</p>
+        </div>
+        <div class="card-inner-header">
+            <p>9615 Shore Rd APT BA</p>
+        </div>
+        <div class="card-inner-footer">
+            <p>Brooklyn, NY 11209</p>
+        </div>
+        <div class="slider-card-bottom d-flex justify-content-center align-items-center flex-column">
+            <div class="slider-card-bottom-frame"></div>
+            <div class="slider-card-bottom-price d-flex justify-content-center align-items-center">
+                <span>$</span>
+                2,189,000
+                <div class="triangle-bottomright position-absolute position-absolute"></div>
+            </div>
+        </div>
+    </div>
+  
+    <div id="thirdSlide" class="carousel-caption">
+        <div class="slider-card-upper d-flex justify-content-center align-items-center">
+            <p>HOUSE FOR SALE</p>
+        </div>
+        <div class="card-inner-header">
+            <p>87 Mishaum Point Rd</p>
+        </div>
+        <div class="card-inner-footer">
+            <p>Dartmouth, MA 02748</p>
+        </div>
+        <div class="slider-card-bottom d-flex justify-content-center align-items-center flex-column">
+            <div class="slider-card-bottom-frame"></div>
+            <div class="slider-card-bottom-price d-flex justify-content-center align-items-center">
+                <span>$</span>
+                1,249,000
+                <div class="triangle-bottomright position-absolute position-absolute"></div>
+            </div>
+        </div>
+    </div>
+  
+</div>
+
+<div class="search-properties">
+    <div class="search-menu d-flex justify-content-center">
+        <div class="searchbar-dropdowns">
+
+            <div class="container text-center ">
+                <div class="row">
+                    <div class="col">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary search-bar search-dropdowns" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                Property Status <i class="fa-solid fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-menu search-dropdown">
+                                <li><a class="dropdown-item search-list-items" href="#">Property Status</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">For sale</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">For rent</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary search-bar search-dropdowns" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                Property Location <i class="fa-solid fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-menu search-dropdown">
+                                <li><a class="dropdown-item search-list-items" href="#">Property Location</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Upper East Side</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Upper West Side</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Midtown East</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Midtown West</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Downtown</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Upper Manhattan</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Brooklyn</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Queens</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bronx</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Staten Island</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary search-bar search-dropdowns " type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                Property Type <i class="fa-solid fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-menu search-dropdown">
+                                <li><a class="dropdown-item search-list-items" href="#">Property Type</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Cooperative</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Condominium</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Cond-op</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">House</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Investment</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Commercial</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Professional / Medical</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">New Development</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Townhouse</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Vacant Lot / Land</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary search-bar search-dropdowns" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                Property Style <i class="fa-solid fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-menu search-dropdown">
+                                <li><a class="dropdown-item search-list-items" href="#">Property Style</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Pre-war</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Post-war</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Loft</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Townhouse Apartment</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Penthouse</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary search-bar search-dropdowns" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                Bedrooms <i class="fa-solid fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-menu search-dropdown">
+                                <li><a class="dropdown-item search-list-items" href="#">Bedrooms</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bedrooms at least 1</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bedrooms at least 2</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bedrooms at least 3</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bedrooms at least 4</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bedrooms 5 or more</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary  search-bar search-dropdowns" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                Bathrooms <i class="fa-solid fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-menu search-dropdown">
+                                <li><a class="dropdown-item search-list-items" href="#">Bathrooms</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bathrooms at least 1</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bathrooms at least 2</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bathrooms at least 3</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bathrooms at least 4</a></li>
+                                <li><a class="dropdown-item search-list-items" href="#">Bathrooms 5 or more</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="searchbar-bottom-menu d-flex justify-content-between">
+
+                <div class="d-flex ranges">
+                    <div class="first-range">
+                        <div class="range-text">
+                            <label id="first-range-left-text" for="range1" class="form-label">Area</label>
+                            <label id="first-range-right-text" for="range2" class="form-label">Any</label>
+                        </div>
+                        <div class="range-input">
+                            <div slider id="slider-distance">
+                                <div>
+                                    <div inverse-left style="width:70%;"></div>
+                                    <div inverse-right style="width:70%;"></div>
+                                    <div range style="left:0;right:0;"></div>
+                                    <span thumb style="left:0;"></span>
+                                    <span thumb style="left:100%;"></span>
+                                    <div class="value-display-min d-none" style="left:0">
+                                        <span class="value">3000SqFt</span>
+                                    </div>
+                                    <div class="value-display-max d-none" style="left:100%">
+                                        <span class="value">6000 SqFt</span>
+                                    </div>
+                                </div>
+                                <input id="range1" type="range" tabindex="0" value="0" max="100" min="0" step="1"/>
+                                <input id="range2" type="range" tabindex="0" value="100" max="100" min="0" step="1"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-range">
+                        <div class="range-text">
+                            <label id="second-range-left-text" for="range3" class="form-label">Area</label>
+                            <label id="second-range-right-text" for="range4" class="form-label">Any</label>
+                        </div>
+                        <div class="range-input">
+                            <div slider id="slider-distance2">
+                                <div>
+                                    <div inverse-left style="width:70%;"></div>
+                                    <div inverse-right style="width:70%;"></div>
+                                    <div range style="left:0;right:0;"></div>
+                                    <span thumb style="left:0;"></span>
+                                    <span thumb style="left:100%;"></span>
+                                    <div class="price-display-min d-none" style="left:0;">
+                                        <span class="value">300,000 $</span>
+                                    </div>
+                                    <div class="price-display-max d-none" style="left:100%;">
+                                        <span class="value">600,000$</span>
+                                    </div>
+                                </div>
+                                <input id="range3" type="range" tabindex="0" value="0" max="100" min="0" step="1"/>
+                                <input id="range4" type="range" tabindex="0" value="100" max="100" min="0" step="1"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="search-container">
+                    <div class="search-button d-flex">
+                        <button type="button" class="btn btn-primary btn-sm search-button-input">SEARCH</button>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="data-container d-flex">
+    <div class="data-about">
+        <div class="data-header">
+            <i class="fa-solid fa-location-dot"></i> 87 Mishaum Point Rd
+            <div class="data-address">
+                Dartmouth, MA 02748
+            </div>
+        </div>
+
+        <div class="data-info">
+            On the best lot at Phuket is situated the Kailua Residence. It features Ipe hardwood flooring on the
+            interior and granite stone flooring on the lanais, high vaulted cedar ceilings.
+        </div>
+        <div class="data-lists d-flex">
+            <div class="data-list-left">
+                <ul>
+                    <li><i class="fa-solid fa-square"></i>Quiet Neighbourhood</li>
+                    <li><i class="fa-solid fa-square"></i>Great Local Community</li>
+
+                </ul>
+            </div>
+            <div class="data-list-right">
+                <ul>
+                    <li><i class="fa-solid fa-square"></i>Fabulous Views</li>
+                    <li><i class="fa-solid fa-square"></i>Large Play Center in Yard</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="data-footer d-flex">
+            <div class="data-footer-price">
+                <span class="span-price">$</span>
+                1,249,000
+            </div>
+            <div class="data-footer-icons">
+                <ul class="d-flex gap-4">
+                    <li><i class="fa-solid fa-chart-gantt"></i> 1,286 sqft</li>
+                    <li><i class="fa-solid fa-bed"></i> 2</li>
+                    <li><i class="fa-solid fa-bath"></i> 3</li>
+                    <li><i class="fa-solid fa-house"></i>2</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="data-image">
+        <img src="./img/dataContent1.jpg" alt="">
+    </div>
+</div>
+
+<div class="recommended-header">
+    <div class="header-text">
+        RECENT PROPERTIES
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 24rem; height: 24rem">
+                <div class="card-img"><img src="./img/recommendedContent1.jpg" class="card-img-top" alt="...">
+                    <div class="card-info">
+                        <span>$</span>1,249,000
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-alert">HOUSE FOR SALE</p>
+                    <p id="card-header" class="card-text">
+                        <i class="fa-solid fa-location-dot"></i>87 Mishaum Point Rd</p>
+                    <p id="card-footer" class="card-text"> Dartmouth, MA 02748</p>
+                    <div class="lower-body">
+                        <ul>
+                            <li><i class="fa-regular fa-building"></i> 1,286 sqft</li>
+                            <li><i class="fa-solid fa-bed"></i> 2</li>
+                            <li><i class="fa-solid fa-bath"></i> 3</li>
+                            <li><i class="fa-solid fa-house"></i>2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 24rem; height: 24rem">
+                <div class="card-img"><img src="./img/recommendedContent2.jpg" class="card-img-top" alt="...">
+                    <div class="card-info">
+                        <span>$</span>2,189,000
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-alert">HOUSE FOR SALE</p>
+                    <p id="card-header2" class="card-text">
+                        <i class="fa-solid fa-location-dot"></i>9615 Shore Rd APT BA</p>
+                    <p id="card-footer2" class="card-text"> Dartmouth, MA 02748</p>
+                    <div class="lower-body">
+                        <ul>
+                            <li><i class="fa-regular fa-building"></i> 1,286 sqft</li>
+                            <li><i class="fa-solid fa-bed"></i> 2</li>
+                            <li><i class="fa-solid fa-bath"></i> 3</li>
+                            <li><i class="fa-solid fa-house"></i>2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 24rem;height: 24rem">
+                <div class="card-img"><img src="./img/recommendedContent3.jpg" class="card-img-top" alt="...">
+                    <div class="card-info">
+                        <span>$</span>3,449 <span>/year</span></div>
+                </div>
+                <div class="card-body">
+                    <p class="card-alert">HOUSE FOR SALE</p>
+                    <p id="card-header3" class="card-text">
+                        <i class="fa-solid fa-location-dot"></i>80646 Via Pessary</p>
+                    <p id="card-footer3" class="card-text"> Dartmouth, MA 02748</p>
+                    <div class="lower-body">
+                        <ul>
+                            <li><i class="fa-regular fa-building"></i> 1,286 sqft</li>
+                            <li><i class="fa-solid fa-bed"></i> 2</li>
+                            <li><i class="fa-solid fa-bath"></i> 3</li>
+                            <li><i class="fa-solid fa-house"></i> 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-background d-flex justify-content-center align-items-center">
+    <div class="row">
+        <div class="col">
+       
+            <div class="card custom-card justify-content-center align-items-center">
+                <div class="diamond">
+                    <i class="fa-solid fa-house custom-icon1"></i>
+                </div>
+                <div class="card-body d-flex text-center flex-column title-animation">
+                    <h5 class="card-title custom-title">BEST PROPERTY LISTS</h5>
+                    <p class="card-text-custom">We provide consumers with a content-rich listings in a handy
+                        format.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">           <div class="card custom-card justify-content-center align-items-center">
+                <div class="diamond">
+                    <i class="fa-solid fa-thumbs-up custom-icon2"></i>
+                </div>
+                <div class="card-body d-flex text-center flex-column title-animation">
+                    <h5 class="card-title custom-title">BEST PRICE IN MARKET</h5>
+                    <p class="card-text-custom">Price estimates and sales histories for property, updating
+                        information.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+
+            <div class="card custom-card justify-content-center align-items-center">
+                <div class="diamond">
+                    <i class="fa-solid fa-medal custom-icon3"></i>
+                </div>
+                <div class="card-body d-flex text-center flex-column title-animation">
+                    <h5 class="card-title custom-title">GUARANTEED SERVICES</h5>
+                    <p class="card-text-custom">Our managers will keep you informed, and you can act with certainty.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+      
+            <div class="card custom-card justify-content-center align-items-center">
+                <div class="diamond">
+                    <i class="fa-solid fa-chart-line custom-icon4"></i>
+                </div>
+                <div class="card-body d-flex text-center flex-column title-animation">
+                    <h5 class="card-title custom-title">MARKETING RESEARCH</h5>
+                    <p class="card-text-custom">All our marketing researchers today have a tough job multitasking.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ad-menu d-flex justify-content-between">
+    <div class="ad-text">
+        <div class="ad-header">
+            Search Best Deals <span class="ad-header-colored-text">on Go</span>
+        </div>
+        <div class="ad-desc">
+            <p>The European languages are members of the same family. Their separate existence is a myth. For science,
+                music, sport, etc. Europe uses the same vocabulary.</p>
+        </div>
+        <div class="ad-icons d-flex gap-4">
+            <div class="first-icon">
+                <img src="./img/img_b1.webp" alt="">
+            </div>
+            <div class="second-icon">
+                <img src="./img/img_b2.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="ad-img">
+        <img class="ad-phone-img" src="img/img_mobile.webp" alt="">
+    </div>
+</div>
+
+<div class="swiper-container d-flex">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="swiper-slide d-flex flex-column">
+                    <div class="swiper-header">
+                        <p>Thank your team for your hard work, advice, honesty and commitment to enable us to sell my
+                            mothers
+                            house.
+                        </p>
+                    </div>
+                    <div class="swiper-footer">
+                        <p>IRINE GOSH</p>
+                        <p>22 YEARS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide d-flex flex-column">
+                    <div class="swiper-header">
+                        <p>Thank you so much for your good wishes and for your not insignificant part in our move. You
+                            are
+                            stars!</p>
+                    </div>
+                    <div class="swiper-footer">
+                        <p>EMMA BENNETT</p>
+                        <p>40 YEARS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide d-flex flex-column">
+                    <div class="swiper-header">
+                        <p>You were superb from the start! We made the best decision. We wish the company well for the
+                            future.</p>
+                    </div>
+                    <div class="swiper-footer">
+                        <p>LOGAN HUGHES</p>
+                        <p>31 YEARS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination custom-pagination"></div>
+    </div>
+</div>
+
+
+<div class="lower-search-bar d-flex">
+    <div class="container text-center">
+        <div class="col d-flex search-menu justify-content-center align-items-center position-relative">
+            <span style="font-size: 24px">SIGN UP FOR UPDATES</span>
+            <div class="input-search m-0 p-2">
+                <input class="search-text-input" type="text" placeholder="Please, enter your email address.">
+                <button type="button" class="btn btn-secondary sub-button"><span>SUBSCRIBE</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="upper-footer">
+        <div class="container text-center">
+            <div style="padding: 48px" class="row">
+          
+                <div class="col">
+                    <div class="footer-contacts">
+                        <div class="footer-header">
+                            CONTACTS
+                        </div>
+                        <div class="footer-contacts-desc">
+                            <div class="footer-contacts-desc-main">
+                                We are the leading real estate and rental marketplace dedicated to empowering consumers
+                                with
+                                data.
+                            </div>
+                            <div class="footer-contacts-contact-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-location-dot"></i> 121 King Street, NY, USA</li>
+                                    <li><i class="fa-solid fa-mobile-screen-button"></i> +800 1234 56 78</li>
+                                    <li><i class="fa-solid fa-envelope"></i> contact@yoursite.com</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+           
+                <div class="col">
+                    <div class="footer-from-the-blog">
+                        <div class="footer-header">
+                            FROM THE BLOG
+                        </div>
+                        <div class="footer-from-the-blog-desc d-flex flex-column gap-5">
+                            <div class="footer-article d-flex">
+                                <img src="./img/articleDesc1.jpg" alt="" class="article-img">
+                                <div class="article-inner">
+                                    <div class="article-desc-main">Making the Most of Your Small Space with Furniture
+                                    </div>
+                                    <div class="article-desc-secondary"><span style="color: #999ca9">BY <span
+                                            class="article-span">JESSE DOE</span> ON</span> MARCH 9, 2016
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-article d-flex">
+                                <img src="./img/articleDesc2.jpg" alt="" class="article-img">
+                                <div class="article-inner">
+                                    <div class="article-desc-main">4 Ways to Decorate Your First Apartment on a Budget
+                                    </div>
+                                    <div class="article-desc-secondary"><span style="color: #999ca9">BY <span
+                                            class="article-span">JESSE DOE</span> ON</span> MARCH 9, 2016
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-article d-flex">
+                                <img src="./img/articleDesc3.jpg" alt="" class="article-img">
+                                <div class="article-inner">
+                                    <div class="article-desc-main">How to Infuse Your Space with Natural Light
+                                    </div>
+                                    <div class="article-desc-secondary"><span style="color: #999ca9">BY <span
+                                            class="article-span">JESSE DOE</span> ON</span> MARCH 9, 2016
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                second column end-->
+                <!--                third column start-->
+                <div class="col">
+                    <div class="footer-quick-links">
+                        <div class="footer-header q-links">
+                            QUICK LINKS
+                        </div>
+                        <div class="footer-quick-links-list d-flex flex-column g-0">
+                            <ul>
+                                <li>HOME</li>
+                                <hr>
+                                <li>ABOUT US</li>
+                                <hr>
+                                <li>LISTING</li>
+                                <hr>
+                                <li>GALLERY</li>
+                                <hr>
+                                <li>CONTACTS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="footer-recent-comments">
+                        <div class="footer-header">
+                            RECENT COMMENTS
+                        </div>
+                        <div class="footer-recent-comment-list">
+                            <div class="footer-recent-comments">
+                                <i class="fa-solid fa-caret-right t-right"></i><span> John Doe on</span> Classic Black,
+                                White and Gold Interiors
+                            </div>
+                            <div class="footer-recent-comments">
+                                <i class="fa-solid fa-caret-right t-right"></i><span> Mike Newton on</span> Classic
+                                Black, White and Gold Interiors
+                            </div>
+                            <div class="footer-recent-comments">
+                                <i class="fa-solid fa-caret-right t-right"></i><span> Martha Stewart on</span> Which
+                                Area
+                                Rug Material is Right for Your Apartment?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div style="background-color:#37353D" class="lower-footer p-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <img src="./img/logo-footer.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="footer-about-us">
+                        <div class="footer-about-us-header text-start">
+                            ABOUT US
+                        </div>
+                        <div class="footer-about-us-desc text-start">
+                            We are the leading real estate and rental marketplace dedicated to empowering consumers with
+                            data, inspiration and knowledge around the place they call home, and connecting them with
+                            the best local professionals who can help.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer-follow-us">
+                        <div class="footer-follow-us-header text-start">
+                            FOLLOW US
+                        </div>
+                        <div class="footer-follow-us-logos">
+                            <ul class="d-flex gap-4">
+                                <li><i class="fa-brands fa-facebook"></i></li>
+                                <li><i class="fa-brands fa-x-twitter"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                                <li><i class="fa-brands fa-behance"></i></li>
+                                <li><i class="fa-brands fa-dribbble"></i></li>
+                                <li><i class="fa-brands fa-youtube"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #302E35" class="initial-footer p-2">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="initial-footer-inner-text"><span class="initial-footer-span">AxiomThemes</span> © 2024
+                        All Rights Reserved
+                    </div>
+                </div>
+                <div class="col-4">
+                </div>
+                <div class="col">
+                    <div class="initial-footer-list">
+                        <ul class="d-flex gap-4">
+                            <li>Disclaimer</li>
+                            <li>Privacy</li>
+                            <li>Advertisement</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/vegas.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+
+</body>
+
+</html>
